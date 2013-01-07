@@ -11,3 +11,36 @@
  *= require_self
  *= require_tree .
 */
+
+body {
+	background-image:url(carbon.jpg) !important;
+	line-height: 2em !important;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #ffffff !important;
+}
+
+.login-box {
+	background: #ffffff;
+	text-align: left;
+	width: 250px;
+	height: auto;
+	float: right;
+	margin: 12%;
+	padding: 2%;
+	border-radius: 10px;
+	color: #000000;
+}
+
+.cover-pic {
+	float: left !important;
+	height: 35%;
+	width: 35%;
+	margin: 8%;
+	padding-left: 25px;
+}
+
+.cover-box {
+	text-align: center;
+	display: inline;
+}
