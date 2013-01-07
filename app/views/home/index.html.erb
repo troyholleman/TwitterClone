@@ -1,0 +1,12 @@
+
+<div style="position: absolute; top: 25%; left: 50%; margin-left: -400px;">
+	<%= image_tag("twitter.png") %>
+</div>
+
+<div style="text-align: center;">
+	<h1 style="font-size: 40px;">THollaback's Twitter Clone</h1>
+	<br />
+	<p style="font-size: 20px;"><%= link_to "View Tweets", posts_path %></p>
+	<p style="font-size: 20px;"><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></p>
+	
+</div>
